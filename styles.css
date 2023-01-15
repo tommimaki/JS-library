@@ -12,11 +12,10 @@ body {
   );
 }
 
-label{
+label {
   text-align: center;
   font-size: larger;
-  text-transform:capitalize;
-
+  text-transform: capitalize;
 }
 .formDiv {
   border: 2px solid black;
@@ -35,7 +34,6 @@ label{
 form {
   display: grid;
   padding: 10px;
-
 }
 
 .header {
@@ -69,7 +67,6 @@ form {
 }
 
 .cardContainer {
- 
   grid-area: cardContainer;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
@@ -80,12 +77,10 @@ form {
 }
 
 .cardDiv {
-
-  background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-box-shadow: 1px 2px 7px black;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  box-shadow: 1px 2px 7px black;
   max-height: 300px;
-  border: 2px solid black;
   border-radius: 25px;
   padding: 10px;
   display: grid;
@@ -95,64 +90,66 @@ box-shadow: 1px 2px 7px black;
 }
 
 .bookInfo {
-
   border-right: solid black 1px;
+  margin-right: -6px;
   padding: 10px;
   display: grid;
   justify-content: space-between;
   align-content: space-around;
 }
 .bookButtons {
-
   padding: 10px;
   display: grid;
   align-content: space-around;
 }
 
-
-
 .divider {
   border-top: 1px solid black;
 }
 
-
-#closeFormBtn, #submitBtn, #openFormBtn{
-  background-color: #04AA6D;
+#closeFormBtn,
+#submitBtn,
+#openFormBtn {
+  background-color: #04aa6d;
   color: white;
   border: none;
   cursor: pointer;
   width: 80%;
   justify-self: center;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   opacity: 0.8;
 }
 
-#openFormBtn{
+#openFormBtn {
   border: 2px solid black;
   width: 60px;
   height: 60px;
   justify-self: center;
   border-radius: 50%;
 }
-#submitBtn{
+#submitBtn {
   margin-top: 5px;
   padding: 12px 20px;
 }
-#closeFormBtn{
+#closeFormBtn {
   background-color: red;
   padding: 12px 20px;
 }
-.removeBtn{
+.removeBtn {
   background-color: antiquewhite;
 }
-.readBtn, .removeBtn{
-      padding: 10px ;
-      opacity: 0.9;
-      border-radius: 10px;
-      min-height: 60px;
-      min-width: 60px;
+.readBtn,
+.removeBtn {
+  padding: 10px;
+  opacity: 0.9;
+  border-radius: 10px;
+  min-height: 60px;
+  min-width: 60px;
 }
 
-#closeFormBtn:hover, #submitBtn:hover, .readBtn:hover,#openFormBtn:hover {
+#closeFormBtn:hover,
+#submitBtn:hover,
+.readBtn:hover,
+#openFormBtn:hover {
   opacity: 1;
 }
